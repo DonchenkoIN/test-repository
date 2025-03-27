@@ -3,6 +3,7 @@
   "description": "Example Laravel package",
   "type": "package",
   "license": "MIT",
+  "homepage": "https://github.com/DonchenkoIN/test-repository.git",
   "autoload": {
     "psr-4": {
       "DonchenkoIn\\TestPackage\\": "src/"
@@ -33,5 +34,14 @@
     }
   },
   "minimum-stability": "stable",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "path",
+      "url": "https://github.com/DonchenkoIN/test-repository.git",
+      "options": {
+        "symlink": false
+      }
+    }
+  ]
 }
