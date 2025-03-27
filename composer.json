@@ -1,0 +1,27 @@
+{
+  "name": "donchenkoin/test-package",
+  "description": "Example Laravel package",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "DonchenkoIn\\TestPackage\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DonchenkoIn\\TestPackage\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "DonchenkoIN",
+      "email": "ihordon4encko@yandex.ru"
+    }
+  ],
+  "require-dev": {
+    "orchestra/testbench": "^10.1"
+  },
+  "require": {
+    "php": "^8.2"
+  }
+}
