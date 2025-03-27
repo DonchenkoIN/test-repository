@@ -1,7 +1,7 @@
 
 ## Install
 
-composer install donchenkoin/test-repository
+composer require donchenkoin/test-repository
 
 ## License
 

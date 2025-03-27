@@ -1,6 +1,7 @@
 {
   "name": "donchenkoin/test-package",
   "description": "Example Laravel package",
+  "type": "package",
   "license": "MIT",
   "autoload": {
     "psr-4": {
@@ -30,5 +31,7 @@
         "Illuminate\\Support\\ServiceProvider\\TestRepositoryServiceProvider"
       ]
     }
-  }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
